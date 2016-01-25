@@ -1,45 +1,78 @@
 body {
-  background-color: #eeeeee;
+  background-color: white;
 }
 
 a {
   text-decoration: none;
-  color: #51878C;
+  color: #3e516c;
 }
 
 a:hover {
   color: #ADD8D0;
 }
 
-p {
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 16px;
-  line-height: 22px;
+p, .list {
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  font-size: 18px;
+  line-height: 28px;
+  color: #51878c;
+}
+
+.list {
+  padding-top: 10px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.list>li {
+  padding-bottom: 10px;
+}
+
+.primary-nav {
+  width: 100%;
 }
 
 .header{
-  /*background-size: 600px 300px;*/
-  background-color: white;
-  font-family: 'Poiret One', cursive;
-  color: #3E686C;
+  margin: 0;
+  padding: 30px;
+
+  font-family: "Poiret One", cursive;
   font-size: 60px;
+  color: #51878c;
+  line-height: 70px;
   text-align: center;
-  padding: 20px;
-  margin: 15px 0;
+}
+
+.container {
+  width: 100%;
+  height: calc(100vh - 180px);
+  overflow-y: auto;
+  text-align: center;
+}
+
+.container>.column {
+  display: inline-block;
+  max-width: 600px;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 25px;
 }
 
 nav {
-  background-color: #3E686C;
+  background-color: #51878c;
   padding: 10px;
   text-align: center;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   font-variant: small-caps;
   font-size: 30px;
 }
+
 nav li {
   display: inline;
   list-style-type: none;
 }
+
 nav li a {
   color: white;
   margin: 10px 20px 10px;
@@ -47,38 +80,49 @@ nav li a {
   transition-duration: 0.7s;*/
 }
 
-.post-title {
-  font-size: 30px;
-  text-align: center;
+.post {
   margin: auto;
-  border-radius: 5px;
-  color: #3E686C;
-  width: auto;
-  font-family: 'Poiret One', cursive;
-  /*font-variant: small-caps;*/
   padding: 10px;
+  width: auto;
+  border-radius: 5px;
+  font-family: "Poiret One", cursive;
+  color: #51878c;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+}
+
+.post-title {
+  font-size: 35px;
+  font-weight: bold;
 }
 
 .post-date {
-  font-size: 25px;
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  text-align: left;
+}
+
+.more {
+  margin: 10px 0;
+  font-size: 20px;
 }
 
 .date {
   margin: 15px auto;
   text-align: center;
-  color: #222222;
-  font-family: 'Poiret One', cursive;
-  /*line-height: 60px;*/
+  font-family: "Poiret One", cursive;
 }
 
-.container {
-  margin: 20px auto;
-  padding: 10px;
-  width: 600px;
-  background-color: white;
-  border-radius: 10px;
+.about {
+  margin-top: 30px;
 }
 
-#pry {
-  height: 200px;
+.pry {
+  height: 400px;
+}
+
+img {
+  margin: 15px auto;
+  width: 100%;
 }
