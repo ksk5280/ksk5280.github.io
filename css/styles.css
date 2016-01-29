@@ -115,23 +115,8 @@ nav li a {
 }
 
 .more {
-  margin: 10px 0;
+  margin: 15px 5px;
   font-size: 20px;
-}
-
-.page {
-  margin: 10px auto;
-  padding: 10px;
-  width: 600px;
-  color: #51878c;
-  font-size: 30px;
-  line-height: 35px;
-  text-align: left;
-}
-
-.date {
-  margin: 15px auto;
-  text-align: center;
 }
 
 .about {
@@ -139,7 +124,7 @@ nav li a {
 }
 
 img {
-  margin: 15px auto;
+  margin: 15px 5px;
   width: 80%;
 }
 
