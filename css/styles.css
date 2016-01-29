@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-family: "Poiret One", sans-serif;
 }
 
 a {
@@ -12,9 +13,10 @@ a:hover {
 }
 
 p, .list {
+  margin: 5px;
   font-family: "Ubuntu", sans-serif;
   text-align: left;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   color: #51878c;
 }
@@ -36,12 +38,28 @@ p, .list {
 .header{
   margin: 0;
   padding: 30px;
-
-  font-family: "Poiret One", cursive;
-  font-size: 60px;
+  font-size: 50px;
   color: #51878c;
   line-height: 70px;
   text-align: center;
+}
+
+nav {
+  background-color: #51878c;
+  padding: 10px;
+  text-align: center;
+  font-variant: small-caps;
+  font-size: 26px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+}
+
+nav li a {
+  color: white;
+  margin: 10px 20px 10px;
 }
 
 .container {
@@ -59,33 +77,27 @@ p, .list {
   padding-bottom: 25px;
 }
 
-nav {
+.footer {
+  padding: 10px 50px;
   background-color: #51878c;
-  padding: 10px;
-  text-align: center;
-  font-family: "Poiret One", cursive;
-  font-variant: small-caps;
-  font-size: 30px;
+  text-align: right;
+  font-size: 25px;
 }
 
-nav li {
+.footer li{
+  padding-left: 30px;
   display: inline;
   list-style-type: none;
 }
 
-nav li a {
+.footer li a{
   color: white;
-  margin: 10px 20px 10px;
-  /*transition-property: color;
-  transition-duration: 0.7s;*/
 }
 
 .post {
-  margin: auto;
+  margin: 10px auto;
   padding: 10px;
-  width: auto;
-  border-radius: 5px;
-  font-family: "Poiret One", cursive;
+  width: 600px;
   color: #51878c;
   font-size: 30px;
   line-height: 35px;
@@ -93,13 +105,12 @@ nav li a {
 }
 
 .post-title {
-  font-size: 35px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .post-date {
-  font-family: "Poiret One", cursive;
-  font-size: 20px;
+  font-size: 18px;
   text-align: left;
 }
 
@@ -108,21 +119,32 @@ nav li a {
   font-size: 20px;
 }
 
+.page {
+  margin: 10px auto;
+  padding: 10px;
+  width: 600px;
+  color: #51878c;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: left;
+}
+
 .date {
   margin: 15px auto;
   text-align: center;
-  font-family: "Poiret One", cursive;
 }
 
 .about {
-  margin-top: 30px;
-}
-
-.pry {
-  height: 400px;
+  margin-top: 10px;
 }
 
 img {
   margin: 15px auto;
-  width: 100%;
+  width: 80%;
+}
+
+.kimiko {
+  width: 25%;
+  height: 25%;
+  border-radius: 10%;
 }
